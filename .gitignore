@@ -1,0 +1,6 @@
+CodeChallengeBase/inputs/*
+CodeChallengeBase/outputs/*
+CodeChallengeBase/scores/*
+CodeChallengeBase/bin/
+CodeChallengeBase/obj/
+.vs/
