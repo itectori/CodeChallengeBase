@@ -8,12 +8,18 @@ namespace CodeChallengeBase
 {
     internal class Solution
     {
-        public void BruteForceSolution(InputData data, long i)
+        InputData data;
+        public Solution(InputData data)
+        {
+            this.data = data;
+        }
+
+        public void BruteForceSolution(long i)
         {
 
         }
 
-        public void SimpleSolution(InputData data)
+        public void SimpleSolution()
         {
 
         }
@@ -23,7 +29,7 @@ namespace CodeChallengeBase
             return "";
         }
 
-        public float Score()
+        public int Score()
         {
             return 0;
         }
